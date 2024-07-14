@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="logo">
+                <span>❤️❤️❤️</span> <span>AluraGeek</span>
+            </div>
+        </header>
+        <main>
+            <section class="products">
+                <h2>MIS PRODUCTOS:</h2>
+                <div id="product-list" class="product-list">
+                    <!-- Los productos se agregarán aquí -->
+                </div>
+            </section>
+            <section class="add-product">
+                <h2>AGREGAR PRODUCTO:</h2>
+                <form id="product-form">
+                    <input type="text" id="product-name" placeholder="nombre..." required>
+                    <input type="text" id="product-price" placeholder="precio..." required>
+                    <input type="file" id="product-image" placeholder="imagen..." accept="image/*" required>
+                    <div id="image-preview" class="image-preview"></div>
+                    <div class="form-buttons">
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpiar</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <p>❤️❤️❤️ AluraGeek</p>
+        <p>DESARROLLADO POR EMILY ALVARADO ALVAREZ</p>
+        <p>ALURA LATAM- 2024</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
